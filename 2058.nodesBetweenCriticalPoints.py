@@ -46,7 +46,7 @@ class Solution:
         if len(critical_point_idx) < 2:
             return [-1, -1]
 
-        min_distance = float("inf")
+        min_distance = critical_point_idx[1] - critical_point_idx[0]
 
         for i in range(1, len(critical_point_idx)):
             distance = critical_point_idx[i] - critical_point_idx[i - 1]
