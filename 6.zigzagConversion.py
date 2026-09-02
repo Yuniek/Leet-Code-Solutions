@@ -30,12 +30,3 @@ class Solution:
             output += grid[f"r{i}"]
 
         return output
-sol = Solution()
-# n= [
-#     ("PAYPALISHIRING", 3),
-#     # ("PAYPALISHIRING", 4),
-#     # ("A", 1),
-# ]
-# print([sol.convert(i[0], i[1]) for i in n])
-# print(sol.convert("PAYPALISHIRING", 3))
-sol.convert("PAYPALISHIRING", 3)
